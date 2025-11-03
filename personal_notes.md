@@ -28,7 +28,7 @@ curl --insecure -fsSL https://codeberg.org/Umfeld/umfeld/raw/branch/main/install
 installation log:
 
 - [20251103_msys2_installation.log](logs/20251103_msys2_installation.log)
-- [20251103_test_template_app_win10.log](enlik-application-win10\logs\20251103_test_template_app_win10.log)
+- [20251103_test_template_app_win10.log](enlik-application-win10/logs/20251103_test_template_app_win10.log)
 
 
 
