@@ -1,0 +1,619 @@
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik
+# cd umfeld/
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/umfeld
+#  /bin/bash -c "$(curl -fsSL https://codeberg.org/Umfeld/umfeld/raw/branch/main/install.sh)"
+curl: (60) SSL certificate problem: unable to get local issuer certificate
+More details here: https://curl.se/docs/sslcerts.html
+
+curl failed to verify the legitimacy of the server and therefore could not
+establish a secure connection to it. To learn more about this situation and
+how to fix it, please visit the webpage mentioned above.
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/umfeld
+# curl --version
+curl 8.15.0 (x86_64-pc-cygwin) libcurl/8.15.0 OpenSSL/3.5.2 zlib/1.3.1 brotli/1.1.0 zstd/1.5.7 libidn2/2.3.8 libpsl/0.21.5 libssh2/1.11.1 nghttp2/1.66.0 ngtcp2/1.15.0 nghttp3/1.11.0
+Release-Date: 2025-07-16
+Protocols: dict file ftp ftps gopher gophers http https imap imaps ipfs ipns mqtt pop3 pop3s rtsp scp sftp smb smbs smtp smtps telnet tftp ws wss
+Features: alt-svc AsynchDNS brotli GSS-API HSTS HTTP2 HTTP3 HTTPS-proxy IDN IPv6 Kerberos Largefile libz NTLM PSL SPNEGO SSL threadsafe TLS-SRP UnixSockets zstd
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/umfeld
+# sudo apt install curl  # or your distro’s package manager
+Sudo is disabled on this machine. To enable it, go to the Developer Settings page in the Settings app
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/umfeld
+# date
+Mon Nov  3 15:21:31 CET 2025
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/umfeld
+# curl --insecure -fsSL https://codeberg.org/Umfeld/umfeld/raw/branch/main/install.sh | bash
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⢈⣌⣌⣮⣮⣾⣿⣿⣿⣿⣿⣿⣿⣿⣯⣮⣮⣌⣌⢈⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢈⣌⣮⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣎⢌⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣈⣬⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⣎⠈⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣌⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⢌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣬⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⢌⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⣈⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⢌⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣎⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⠈⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⣀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⠈⠀⠀⠀⠀
+⠀⠀⠀⢀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣯⠀⠀⠀⠀
+⠀⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢏⠀⠀⠀
+⠀⠀⣠⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠌⠀⠀
+⠀⠀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠏⠀⠀
+⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⠀
+⠀⠀⣳⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠟⠀⠀
+⠀⠀⡰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀
+⠀⠀⠀⣳⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠀⠀⠀
+⠀⠀⠀⠐⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀
+⠀⠀⠀⠀⠰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠃⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠁⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠐⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠿⠁⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡱⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠓⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⡳⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠷⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⡳⣷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠓⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠱⡳⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⠷⠑⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠑⠳⡷⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡷⠳⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠑⠳⡳⡷⡷⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡷⡷⠳⠳⠑⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+
+⚠️ IMPORTANT ⚠️
+this script will download the umfeld repositories into this folder:
+'/home/Enlik/umfeld'
+
+⚠️ IMPORTANT ⚠️
+on Windows ( MSYS2 UCRT64 ), the console might close when running the script above.
+this is expected behavior ( part of the self-updating process ).
+just run the script again. it should work fine the second time.
+
+
+-------------------------------
+--- installing dependencies
+-------------------------------
+
+-------------------------------
+--- platform: detected Windows (MSYS2 UCRT64)
+--- environment
+MSYSTEM=UCRT64
+PATH=/ucrt64/bin:/usr/local/bin:/usr/bin:/bin:/c/Windows/System32:/c/Windows:/c/Windows/System32/Wbem:/c/Windows/System32/WindowsPowerShell/v1.0/:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+--- updating MSYS2 package database and core system packages
+:: Synchronizing package databases...
+ clangarm64 is up to date
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang64 is up to date
+ msys is up to date
+error: failed retrieving file 'mingw64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from repo.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp2.osuosl.org, skipping for the remainder of this transaction
+error: failed retrieving file 'ucrt64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.yandex.ru, skipping for the remainder of this transaction
+error: failed retrieving file 'ucrt64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.accum.se, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp.nluug.nl, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.internet.asn.au, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.selfnet.de, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.dotsrc.org, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.bfsu.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.tuna.tsinghua.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.ustc.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.nju.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.clarkson.edu : The requested URL returned error: 404
+error: failed retrieving file 'msys.db' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+:: Starting core system upgrade...
+ there is nothing to do
+:: Starting full system upgrade...
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (18) bash-completion-2.17.0-1  bsdtar-3.8.2-1  curl-8.16.0-2  less-685-1  libcurl-8.16.0-2
+              libexpat-2.7.3-1  libffi-3.5.2-1  libgpg-error-1.56-1  libnghttp2-1.68.0-1
+              libnghttp3-1.12.0-1  libngtcp2-1.17.0-1  libopenssl-3.6.0-1  libp11-kit-0.25.10-1
+              libpcre2_8-10.47-1  msys2-keyring-1~20251012-1  openssl-3.6.0-1  p11-kit-0.25.10-1
+              tar-1.35-3
+
+Total Download Size:    6.74 MiB
+Total Installed Size:  22.66 MiB
+Net Upgrade Size:       0.43 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ libopenssl-3.6.0-1-x86_64                        2037.0 KiB   923 KiB/s 00:02 [############################################] 100%
+ p11-kit-0.25.10-1-x86_64                          472.4 KiB   206 KiB/s 00:02 [############################################] 100%
+ tar-1.35-3-x86_64                                 796.1 KiB   322 KiB/s 00:02 [############################################] 100%
+ openssl-3.6.0-1-x86_64                            665.0 KiB   202 KiB/s 00:03 [############################################] 100%
+ libp11-kit-0.25.10-1-x86_64                       238.5 KiB   191 KiB/s 00:01 [############################################] 100%
+ libcurl-8.16.0-2-x86_64                           352.4 KiB   268 KiB/s 00:01 [############################################] 100%
+ bsdtar-3.8.2-1-x86_64                             344.3 KiB   263 KiB/s 00:01 [############################################] 100%
+ bash-completion-2.17.0-1-any                      224.4 KiB   193 KiB/s 00:01 [############################################] 100%
+ libgpg-error-1.56-1-x86_64                        196.2 KiB   652 KiB/s 00:00 [############################################] 100%
+ libngtcp2-1.17.0-1-x86_64                         150.9 KiB   683 KiB/s 00:00 [############################################] 100%
+ less-685-1-x86_64                                 140.3 KiB   662 KiB/s 00:00 [############################################] 100%
+ libpcre2_8-10.47-1-x86_64                         148.2 KiB   412 KiB/s 00:00 [############################################] 100%
+ libnghttp3-1.12.0-1-x86_64                         66.4 KiB   232 KiB/s 00:00 [############################################] 100%
+ curl-8.16.0-2-x86_64                              876.8 KiB   192 KiB/s 00:05 [############################################] 100%
+ libnghttp2-1.68.0-1-x86_64                         64.1 KiB   148 KiB/s 00:00 [############################################] 100%
+ libexpat-2.7.3-1-x86_64                            60.5 KiB   119 KiB/s 00:01 [############################################] 100%
+ msys2-keyring-1~20251012-1-any                     41.4 KiB  94.3 KiB/s 00:00 [############################################] 100%
+ libffi-3.5.2-1-x86_64                              30.9 KiB  71.8 KiB/s 00:00 [############################################] 100%
+ Total (18/18)                                       6.7 MiB   738 KiB/s 00:09 [############################################] 100%
+error: failed retrieving file 'curl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.clarkson.edu : The requested URL returned error: 404
+error: failed retrieving file 'curl-8.16.0-2-x86_64.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'curl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'curl-8.16.0-2-x86_64.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libcurl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.clarkson.edu : The requested URL returned error: 404
+warning: too many errors from mirror.clarkson.edu, skipping for the remainder of this transaction
+error: failed retrieving file 'curl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libcurl-8.16.0-2-x86_64.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from quantum-mirror.hu, skipping for the remainder of this transaction
+error: failed retrieving file 'bsdtar-3.8.2-1-x86_64.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libp11-kit-0.25.10-1-x86_64.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'bash-completion-2.17.0-1-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libcurl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.archlinux.tw, skipping for the remainder of this transaction
+error: failed retrieving file 'bsdtar-3.8.2-1-x86_64.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libp11-kit-0.25.10-1-x86_64.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'bash-completion-2.17.0-1-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libcurl-8.16.0-2-x86_64.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from distrohub.kyiv.ua, skipping for the remainder of this transaction
+error: failed retrieving file 'bsdtar-3.8.2-1-x86_64.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libp11-kit-0.25.10-1-x86_64.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'bash-completion-2.17.0-1-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'libp11-kit-0.25.10-1-x86_64.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.umd.edu, skipping for the remainder of this transaction
+error: failed retrieving file 'libcurl-8.16.0-2-x86_64.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'bsdtar-3.8.2-1-x86_64.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'bash-completion-2.17.0-1-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+(18/18) checking keys in keyring                                               [############################################] 100%
+(18/18) checking package integrity                                             [############################################] 100%
+(18/18) loading package files                                                  [############################################] 100%
+(18/18) checking for file conflicts                                            [############################################] 100%
+(18/18) checking available disk space                                          [############################################] 100%
+:: Processing package changes...
+( 1/18) upgrading bash-completion                                              [############################################] 100%
+( 2/18) upgrading libexpat                                                     [############################################] 100%
+( 3/18) upgrading libopenssl                                                   [############################################] 100%
+( 4/18) upgrading bsdtar                                                       [############################################] 100%
+( 5/18) upgrading libnghttp3                                                   [############################################] 100%
+( 6/18) upgrading libngtcp2                                                    [############################################] 100%
+( 7/18) upgrading libnghttp2                                                   [############################################] 100%
+( 8/18) upgrading openssl                                                      [############################################] 100%
+( 9/18) upgrading libffi                                                       [############################################] 100%
+(10/18) upgrading libpcre2_8                                                   [############################################] 100%
+(11/18) upgrading less                                                         [############################################] 100%
+(12/18) upgrading libp11-kit                                                   [############################################] 100%
+(13/18) upgrading p11-kit                                                      [############################################] 100%
+(14/18) upgrading libcurl                                                      [############################################] 100%
+(15/18) upgrading curl                                                         [############################################] 100%
+(16/18) upgrading libgpg-error                                                 [############################################] 100%
+(17/18) upgrading msys2-keyring                                                [############################################] 100%
+==> Appending keys from msys2.gpg...
+==> Updating trust database...
+gpg: next trustdb check due at 2026-04-10
+(18/18) upgrading tar                                                          [############################################] 100%
+:: Running post-transaction hooks...
+(1/1) Updating the info directory file...
+:: Synchronizing package databases...
+ clangarm64 is up to date
+ mingw32 is up to date
+ mingw64 is up to date
+ ucrt64 is up to date
+ clang64 is up to date
+ msys is up to date
+error: failed retrieving file 'clangarm64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'ucrt64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from repo.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'ucrt64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp2.osuosl.org, skipping for the remainder of this transaction
+error: failed retrieving file 'clang64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.yandex.ru, skipping for the remainder of this transaction
+error: failed retrieving file 'clang64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.accum.se, skipping for the remainder of this transaction
+error: failed retrieving file 'clangarm64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp.nluug.nl, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.internet.asn.au, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.selfnet.de, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw64.db' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.dotsrc.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.bfsu.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'ucrt64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.tuna.tsinghua.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw32.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clangarm64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw32.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.ustc.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'clang64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.nju.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'msys.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'ucrt64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'clang64.db' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.clarkson.edu : The requested URL returned error: 404
+error: failed retrieving file 'msys.db' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'msys.db' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+:: Starting core system upgrade...
+ there is nothing to do
+:: Starting full system upgrade...
+ there is nothing to do
+--- installing base toolchain and core dependencies
+:: There are 13 members in group mingw-w64-ucrt-x86_64-toolchain:
+:: Repository ucrt64
+   1) mingw-w64-ucrt-x86_64-binutils  2) mingw-w64-ucrt-x86_64-crt-git  3) mingw-w64-ucrt-x86_64-gcc  4) mingw-w64-ucrt-x86_64-gdb
+   5) mingw-w64-ucrt-x86_64-gdb-multiarch  6) mingw-w64-ucrt-x86_64-headers-git  7) mingw-w64-ucrt-x86_64-libmangle-git
+   8) mingw-w64-ucrt-x86_64-libwinpthread  9) mingw-w64-ucrt-x86_64-make  10) mingw-w64-ucrt-x86_64-pkgconf
+   11) mingw-w64-ucrt-x86_64-tools-git  12) mingw-w64-ucrt-x86_64-winpthreads  13) mingw-w64-ucrt-x86_64-winstorecompat-git
+
+Enter a selection (default=all):
+resolving dependencies...
+looking for conflicting packages...
+
+Packages (106) heimdal-7.8.0-5  libcbor-0.12.0-1  libfido2-1.16.0-1  mingw-w64-ucrt-x86_64-brotli-1.1.0-5
+               mingw-w64-ucrt-x86_64-bzip2-1.0.8-3  mingw-w64-ucrt-x86_64-c-ares-1.34.5-1
+               mingw-w64-ucrt-x86_64-ca-certificates-20250419-1  mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1
+               mingw-w64-ucrt-x86_64-cppdap-1.65-1  mingw-w64-ucrt-x86_64-expat-2.7.3-1  mingw-w64-ucrt-x86_64-gcc-libs-15.2.0-8
+               mingw-w64-ucrt-x86_64-gettext-runtime-0.26-2  mingw-w64-ucrt-x86_64-gmp-6.3.0-2
+               mingw-w64-ucrt-x86_64-gnutls-3.8.10-2  mingw-w64-ucrt-x86_64-isl-0.27-1  mingw-w64-ucrt-x86_64-jsoncpp-1.9.6-3
+               mingw-w64-ucrt-x86_64-libarchive-3.8.2-1  mingw-w64-ucrt-x86_64-libb2-0.98.1-3
+               mingw-w64-ucrt-x86_64-libffi-3.5.2-1  mingw-w64-ucrt-x86_64-libiconv-1.18-1  mingw-w64-ucrt-x86_64-libidn2-2.3.8-4
+               mingw-w64-ucrt-x86_64-libpsl-0.21.5-3  mingw-w64-ucrt-x86_64-libssh2-1.11.1-1
+               mingw-w64-ucrt-x86_64-libsystre-1.0.2-2  mingw-w64-ucrt-x86_64-libtasn1-4.20.0-1
+               mingw-w64-ucrt-x86_64-libtre-0.9.0-2  mingw-w64-ucrt-x86_64-libunistring-1.3-1
+               mingw-w64-ucrt-x86_64-libuv-1.51.0-1  mingw-w64-ucrt-x86_64-libva-2.22.0-2  mingw-w64-ucrt-x86_64-libxml2-2.14.6-3
+               mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1  mingw-w64-ucrt-x86_64-lz4-1.10.0-1  mingw-w64-ucrt-x86_64-mpc-1.3.1-2
+               mingw-w64-ucrt-x86_64-mpdecimal-4.0.1-1  mingw-w64-ucrt-x86_64-mpfr-4.2.2-1
+               mingw-w64-ucrt-x86_64-ncurses-6.5.20250927-2  mingw-w64-ucrt-x86_64-nettle-3.10.2-1
+               mingw-w64-ucrt-x86_64-nghttp2-1.67.1-1  mingw-w64-ucrt-x86_64-nghttp3-1.12.0-1
+               mingw-w64-ucrt-x86_64-ngtcp2-1.17.0-1  mingw-w64-ucrt-x86_64-openssl-3.6.0-1
+               mingw-w64-ucrt-x86_64-p11-kit-0.25.10-1  mingw-w64-ucrt-x86_64-python-3.12.12-1
+               mingw-w64-ucrt-x86_64-readline-8.3.001-1  mingw-w64-ucrt-x86_64-rhash-1.4.6-1
+               mingw-w64-ucrt-x86_64-spirv-llvm-translator-21.1.0-1  mingw-w64-ucrt-x86_64-spirv-tools-3~1.4.328.1-1
+               mingw-w64-ucrt-x86_64-sqlite3-3.50.4-1  mingw-w64-ucrt-x86_64-tcl-8.6.16-1  mingw-w64-ucrt-x86_64-termcap-1.3.1-7
+               mingw-w64-ucrt-x86_64-tk-8.6.16-1  mingw-w64-ucrt-x86_64-tzdata-2025b-2
+               mingw-w64-ucrt-x86_64-vulkan-loader-1~1.4.328.1-1  mingw-w64-ucrt-x86_64-windows-default-manifest-6.4-4
+               mingw-w64-ucrt-x86_64-xxhash-0.8.3-1  mingw-w64-ucrt-x86_64-xz-5.8.1-2  mingw-w64-ucrt-x86_64-zlib-1.3.1-1
+               mingw-w64-ucrt-x86_64-zstd-1.5.7-1  openssh-10.2p1-1  perl-Authen-SASL-2.1900-1  perl-Clone-0.47-2
+               perl-Convert-BinHex-1.125-2  perl-Encode-Locale-1.05-2  perl-Error-0.17030-1  perl-File-Listing-6.16-1
+               perl-HTML-Parser-3.83-2  perl-HTML-Tagset-3.24-1  perl-HTTP-Cookies-6.11-1  perl-HTTP-Daemon-6.16-1
+               perl-HTTP-Date-6.06-1  perl-HTTP-Message-7.01-1  perl-HTTP-Negotiate-6.01-3  perl-IO-HTML-1.004-2
+               perl-IO-Socket-SSL-2.095-1  perl-IO-Stringy-2.113-2  perl-LWP-MediaTypes-6.04-2  perl-MIME-tools-5.515-1
+               perl-MailTools-2.22-1  perl-Net-HTTP-6.24-1  perl-Net-SMTP-SSL-1.04-2  perl-Net-SSLeay-1.94-3
+               perl-TermReadKey-2.38-7  perl-TimeDate-2.33-2  perl-Try-Tiny-0.32-1  perl-URI-5.32-1  perl-WWW-RobotRules-6.02-3
+               perl-http-cookiejar-0.014-1  perl-libwww-6.81-1  git-2.51.2-1  mingw-w64-ucrt-x86_64-binutils-2.45-2
+               mingw-w64-ucrt-x86_64-cmake-4.1.2-1  mingw-w64-ucrt-x86_64-crt-git-13.0.0.r245.g1243c4e62-1
+               mingw-w64-ucrt-x86_64-curl-8.16.0-1  mingw-w64-ucrt-x86_64-gcc-15.2.0-8  mingw-w64-ucrt-x86_64-gdb-16.3-1
+               mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1  mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1
+               mingw-w64-ucrt-x86_64-libmangle-git-13.0.0.r245.g1243c4e62-1
+               mingw-w64-ucrt-x86_64-libwinpthread-13.0.0.r245.g1243c4e62-1  mingw-w64-ucrt-x86_64-make-4.4.1-3
+               mingw-w64-ucrt-x86_64-mesa-25.2.5-1  mingw-w64-ucrt-x86_64-ninja-1.13.1-1  mingw-w64-ucrt-x86_64-pkgconf-1~2.5.1-1
+               mingw-w64-ucrt-x86_64-tools-git-13.0.0.r245.g1243c4e62-1
+               mingw-w64-ucrt-x86_64-winpthreads-13.0.0.r245.g1243c4e62-1
+               mingw-w64-ucrt-x86_64-winstorecompat-git-13.0.0.r245.g1243c4e62-1
+
+Total Download Size:    221.44 MiB
+Total Installed Size:  1446.60 MiB
+
+:: Proceed with installation? [Y/n]
+:: Retrieving packages...
+ mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any            12.4 MiB   634 KiB/s 00:20 [############################################] 100%
+ mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1-any      21.0 MiB   909 KiB/s 00:24 [############################################] 100%
+ mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any       28.3 MiB   828 KiB/s 00:35 [############################################] 100%
+ mingw-w64-ucrt-x86_64-openssl-3.6.0-1-any           7.9 MiB   622 KiB/s 00:13 [############################################] 100%
+ mingw-w64-ucrt-x86_64-cmake-4.1.2-1-any             9.3 MiB   416 KiB/s 00:23 [############################################] 100%
+ git-2.51.2-1-x86_64                                 6.8 MiB   604 KiB/s 00:11 [############################################] 100%
+ mingw-w64-ucrt-x86_64-python-3.12.12-1-any       1676.9 KiB  1129 KiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any      3.2 MiB  2.04 MiB/s 00:02 [############################################] 100%
+ mingw-w64-ucrt-x86_64-binutils-2.45-2-any           4.9 MiB  2.45 MiB/s 00:02 [############################################] 100%
+ mingw-w64-ucrt-x86_64-headers-git-13.0.0.r24...     3.9 MiB  1969 KiB/s 00:02 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gdb-16.3-1-any                4.6 MiB  4.74 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-tcl-8.6.16-1-any              2.7 MiB  4.10 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-crt-git-13.0.0.r245.g1...     4.6 MiB  4.54 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-spirv-llvm-translator-...     2.3 MiB  4.35 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-spirv-tools-3~1.4.328....     3.0 MiB  2.61 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-sqlite3-3.50.4-1-any          2.3 MiB  2.51 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gnutls-3.8.10-2-any           2.2 MiB  2.49 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-ncurses-6.5.20250927-2-any 1795.5 KiB  2.59 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-tk-8.6.16-1-any               2.0 MiB  2.48 MiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-isl-0.27-1-any             1453.5 KiB  3.80 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-curl-8.16.0-1-any          1591.9 KiB  3.25 MiB/s 00:00 [############################################] 100%
+ openssh-10.2p1-1-x86_64                          1162.4 KiB  2.74 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any             15.5 MiB  3.28 MiB/s 00:05 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gcc-libs-15.2.0-8-any      1050.1 KiB  2.15 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libxml2-2.14.6-3-any       1006.4 KiB  3.09 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libarchive-3.8.2-1-any      880.4 KiB  2.78 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-xz-5.8.1-2-any              866.4 KiB  1593 KiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gmp-6.3.0-2-any             578.5 KiB  1819 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libunistring-1.3-1-any      833.5 KiB  2.05 MiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-zstd-1.5.7-1-any            642.3 KiB  1466 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libiconv-1.18-1-any         725.4 KiB  1183 KiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-nettle-3.10.2-1-any         563.5 KiB  1692 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-mpfr-4.2.2-1-any            541.9 KiB  2.01 MiB/s 00:00 [############################################] 100%
+ heimdal-7.8.0-5-x86_64                            544.5 KiB  1426 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-readline-8.3.001-1-any      500.2 KiB  1761 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-cppdap-1.65-1-any           491.8 KiB  1523 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-p11-kit-0.25.10-1-any       444.4 KiB  1248 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-brotli-1.1.0-5-any          419.5 KiB  1263 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-gettext-runtime-0.26-2-any  403.9 KiB  1041 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-ca-certificates-202504...   394.9 KiB   859 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-tools-git-13.0.0.r245....   340.6 KiB  1071 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-c-ares-1.34.5-1-any         308.7 KiB   848 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libssh2-1.11.1-1-any        308.2 KiB  1159 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-ngtcp2-1.17.0-1-any         280.7 KiB   936 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libva-2.22.0-2-any          233.2 KiB   573 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-rhash-1.4.6-1-any           228.5 KiB   524 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-tzdata-2025b-2-any          221.1 KiB   403 KiB/s 00:01 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libuv-1.51.0-1-any          221.0 KiB   557 KiB/s 00:00 [############################################] 100%
+ perl-Net-SSLeay-1.94-3-x86_64                     219.4 KiB   507 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libtasn1-4.20.0-1-any       195.6 KiB   927 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-nghttp2-1.67.1-1-any        196.8 KiB   539 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-vulkan-loader-1~1.4.32...   192.9 KiB   387 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-ninja-1.13.1-1-any          185.9 KiB   750 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-jsoncpp-1.9.6-3-any         175.0 KiB   621 KiB/s 00:00 [############################################] 100%
+ perl-MIME-tools-5.515-1-any                       176.8 KiB   523 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libidn2-2.3.8-4-any         171.0 KiB   491 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-expat-2.7.3-1-any           170.6 KiB   578 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-lz4-1.10.0-1-any            167.3 KiB   712 KiB/s 00:00 [############################################] 100%
+ perl-IO-Socket-SSL-2.095-1-any                    162.8 KiB   676 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-mpdecimal-4.0.1-1-any       154.9 KiB   489 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-make-4.4.1-3-any            138.8 KiB   507 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-mpc-1.3.1-2-any             128.3 KiB   642 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-nghttp3-1.12.0-1-any        129.1 KiB   540 KiB/s 00:00 [############################################] 100%
+ perl-libwww-6.81-1-any                            125.2 KiB   493 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-xxhash-0.8.3-1-any          118.7 KiB   593 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-pkgconf-1~2.5.1-1-any        99.6 KiB   417 KiB/s 00:00 [############################################] 100%
+ perl-URI-5.32-1-any                                93.7 KiB   342 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-zlib-1.3.1-1-any             92.1 KiB   451 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libpsl-0.21.5-3-any          93.5 KiB   320 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libtre-0.9.0-2-any           80.3 KiB   354 KiB/s 00:00 [############################################] 100%
+ perl-HTML-Parser-3.83-2-x86_64                     78.2 KiB   334 KiB/s 00:00 [############################################] 100%
+ libfido2-1.16.0-1-x86_64                           77.6 KiB   345 KiB/s 00:00 [############################################] 100%
+ perl-HTTP-Message-7.01-1-any                       73.7 KiB   304 KiB/s 00:00 [############################################] 100%
+ perl-MailTools-2.22-1-any                          57.9 KiB   305 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-bzip2-1.0.8-3-any            76.5 KiB   218 KiB/s 00:00 [############################################] 100%
+ perl-IO-Stringy-2.113-2-any                        43.5 KiB   210 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libffi-3.5.2-1-any           43.2 KiB   202 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-winpthreads-13.0.0.r24...    42.4 KiB   177 KiB/s 00:00 [############################################] 100%
+ perl-Authen-SASL-2.1900-1-any                      39.3 KiB   152 KiB/s 00:00 [############################################] 100%
+ perl-TimeDate-2.33-2-any                           35.6 KiB   117 KiB/s 00:00 [############################################] 100%
+ perl-Convert-BinHex-1.125-2-any                    29.8 KiB  94.0 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libwinpthread-13.0.0.r...    29.5 KiB   122 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-termcap-1.3.1-7-any          27.3 KiB  77.7 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-winstorecompat-git-13....    25.7 KiB  69.9 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libb2-0.98.1-3-any           24.0 KiB  56.0 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libmangle-git-13.0.0.r...    22.9 KiB  50.0 KiB/s 00:00 [############################################] 100%
+ perl-Net-HTTP-6.24-1-any                           21.5 KiB  44.5 KiB/s 00:00 [############################################] 100%
+ perl-HTTP-Cookies-6.11-1-any                       21.1 KiB  49.4 KiB/s 00:00 [############################################] 100%
+ libcbor-0.12.0-1-x86_64                            20.8 KiB  45.5 KiB/s 00:00 [############################################] 100%
+ perl-Error-0.17030-1-any                           20.7 KiB  54.7 KiB/s 00:00 [############################################] 100%
+ perl-TermReadKey-2.38-7-x86_64                     20.1 KiB  50.1 KiB/s 00:00 [############################################] 100%
+ perl-LWP-MediaTypes-6.04-2-any                     19.1 KiB  44.9 KiB/s 00:00 [############################################] 100%
+ perl-HTTP-Daemon-6.16-1-any                        18.7 KiB  54.9 KiB/s 00:00 [############################################] 100%
+ perl-Try-Tiny-0.32-1-any                           18.6 KiB  51.4 KiB/s 00:00 [############################################] 100%
+ perl-IO-HTML-1.004-2-any                           14.4 KiB  60.9 KiB/s 00:00 [############################################] 100%
+ perl-http-cookiejar-0.014-1-any                    13.9 KiB  54.3 KiB/s 00:00 [############################################] 100%
+ perl-HTTP-Negotiate-6.01-3-any                     12.1 KiB  36.0 KiB/s 00:00 [############################################] 100%
+ perl-WWW-RobotRules-6.02-3-any                     11.7 KiB  64.0 KiB/s 00:00 [############################################] 100%
+ perl-Encode-Locale-1.05-2-any                      10.7 KiB  53.1 KiB/s 00:00 [############################################] 100%
+ perl-HTML-Tagset-3.24-1-any                        10.5 KiB  37.9 KiB/s 00:00 [############################################] 100%
+ perl-File-Listing-6.16-1-any                       10.3 KiB  36.7 KiB/s 00:00 [############################################] 100%
+ perl-Clone-0.47-2-x86_64                           10.0 KiB  31.2 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-libsystre-1.0.2-2-any         9.7 KiB  27.2 KiB/s 00:00 [############################################] 100%
+ perl-HTTP-Date-6.06-1-any                           9.5 KiB  19.6 KiB/s 00:00 [############################################] 100%
+ perl-Net-SMTP-SSL-1.04-2-any                        4.9 KiB  16.2 KiB/s 00:00 [############################################] 100%
+ mingw-w64-ucrt-x86_64-windows-default-manife...     3.0 KiB  9.13 KiB/s 00:00 [############################################] 100%
+ Total (106/106)                                   221.4 MiB  2.57 MiB/s 01:26 [############################################] 100%
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1-any.pkg.tar.zst' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1-any.pkg.tar.zst' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from repo.msys2.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from repo.msys2.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1-any.pkg.tar.zst' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp2.osuosl.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from ftp2.osuosl.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.yandex.ru : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.yandex.ru, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.accum.se : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.accum.se, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from ftp.nluug.nl : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from ftp.nluug.nl, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.internet.asn.au : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.internet.asn.au, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.selfnet.de : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.selfnet.de, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirrors.dotsrc.org : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.dotsrc.org, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirrors.bfsu.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.bfsu.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirrors.tuna.tsinghua.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.tuna.tsinghua.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-llvm-libs-21.1.4-1-any.pkg.tar.zst' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-mesa-25.2.5-1-any.pkg.tar.zst' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirrors.ustc.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirrors.ustc.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.nju.edu.cn : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.nju.edu.cn, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from mirror.yandex.ru : Connection timed out after 10005 milliseconds
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-clang-libs-21.1.4-1-any.pkg.tar.zst' from mirror.yandex.ru : Connection timed out after 10016 milliseconds
+error: failed retrieving file 'git-2.51.2-1-x86_64.pkg.tar.zst' from mirror.clarkson.edu : The requested URL returned error: 404
+error: failed retrieving file 'git-2.51.2-1-x86_64.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'git-2.51.2-1-x86_64.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'git-2.51.2-1-x86_64.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'git-2.51.2-1-x86_64.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-binutils-2.45-2-any.pkg.tar.zst' from mirror.clarkson.edu : OpenSSL SSL_read: OpenSSL/3.5.2: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.clarkson.edu : OpenSSL SSL_read: OpenSSL/3.5.2: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+warning: too many errors from mirror.clarkson.edu, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from mirror.clarkson.edu : OpenSSL SSL_read: OpenSSL/3.5.2: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1-any.pkg.tar.zst' from mirror.clarkson.edu : OpenSSL SSL_read: OpenSSL/3.5.2: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any.pkg.tar.zst' from mirror.clarkson.edu : OpenSSL SSL_read: OpenSSL/3.5.2: error:0A000126:SSL routines::unexpected eof while reading, errno 0
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-binutils-2.45-2-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from quantum-mirror.hu, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1-any.pkg.tar.zst' from quantum-mirror.hu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-binutils-2.45-2-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.archlinux.tw, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1-any.pkg.tar.zst' from mirror.archlinux.tw : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-binutils-2.45-2-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from distrohub.kyiv.ua, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any.pkg.tar.zst' from distrohub.kyiv.ua : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-binutils-2.45-2-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-python-3.12.12-1-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+warning: too many errors from mirror.umd.edu, skipping for the remainder of this transaction
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-headers-git-13.0.0.r245.g1243c4e62-1-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gcc-15.2.0-8-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+error: failed retrieving file 'mingw-w64-ucrt-x86_64-gdb-multiarch-16.3-1-any.pkg.tar.zst' from mirror.umd.edu : SSL certificate problem: unable to get local issuer certificate
+(106/106) checking keys in keyring                                             [############################################] 100%
+( 27/106) checking package integrity                                           [###############-----------------------------]  36%
