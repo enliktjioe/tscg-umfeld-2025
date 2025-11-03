@@ -1,0 +1,43 @@
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/GitRepo/tscg-umfeld-2025/enlik-application-win10
+# cmake -B build
+-- ----------------------------------------
+-- UMFELD LIBRARY
+-- ----------------------------------------
+-- APP NAME      : UMFELD_APP_NAME="enlik-application-win10"
+-- ENABLING      : PortAudio Driver
+-- ENABLING      : Capture
+-- SYSTEM        : Windows
+-- OPEN_GL(app)  : OPENGL_3_3_CORE ( UMFELD_OPENGL_VERSION not set, using default )
+-- OPEN_GL(GLAD) : OPENGL_3_3_CORE
+-- Found PkgConfig: C:/msys64/ucrt64/bin/pkg-config.exe (found version "2.5.1")
+-- START FINDING PACKAGES ...
+--     PACKAGE: CURL              ✓ found with 'find_package' ( target )
+--     PACKAGE: glm               ✓ found with 'find_package' ( target )
+--     PACKAGE: SDL3              ✓ found with 'find_package' ( target )
+--     PACKAGE: Freetype          ✓ found with 'find_package' ( target )
+--     PACKAGE: HarfBuzz          ✓ found with 'find_package' ( target )
+--     PACKAGE: OpenGL            ✓ found with 'find_package' ( target )
+--     PACKAGE: SDL3              ✓ found with 'find_package' ( target )
+--     PACKAGE: PortAudio         ✓ found with 'pkg-config'   ( variables )
+--     PACKAGE: Cairo             ✓ found with 'pkg-config'   ( variables )
+-- Looking for cbreak in C:/msys64/ucrt64/lib/libncurses.a
+-- Looking for cbreak in C:/msys64/ucrt64/lib/libncurses.a - found
+-- Looking for nodelay in C:/msys64/ucrt64/lib/libncurses.a
+-- Looking for nodelay in C:/msys64/ucrt64/lib/libncurses.a - found
+--     PACKAGE: Curses            ✓ found with 'find_package' ( variables )
+-- Checking for modules 'libavcodec;libavformat;libavutil;libswscale;libswresample;libavdevice'
+--   Found libavcodec, version 62.11.100
+--   Found libavformat, version 62.3.100
+--   Found libavutil, version 60.8.100
+--   Found libswscale, version 9.1.100
+--   Found libswresample, version 6.1.100
+--   Found libavdevice, version 62.1.100
+-- Checking for one of the modules 'rtmidi'
+-- ... DONE
+-- 'data' FOLDER : not found
+-- ----------------------------------------
+-- Configuring done (9.8s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/msys64/home/Enlik/GitRepo/tscg-umfeld-2025/enlik-application-win10/build
+
+TLN-W-L-3643+enlik_local@TLN-W-L-3643 UCRT64 /home/Enlik/GitRepo/tscg-umfeld-2025/enlik-application-win10
