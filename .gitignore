@@ -8,3 +8,5 @@ deployment/stage/
 deployment/libs/
 deployment/sdk/
 deployment.bak/
+*.wav
+*.mp3
