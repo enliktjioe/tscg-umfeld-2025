@@ -1,5 +1,13 @@
 
 
+# 19.12.2025 - Friday session
+
+One button game project with Umfeld C++
+
+Will deploying into Raspberry Pi 4
+
+
+
 # 21.11.2025 - Friday session
 
 ## Hedge Doc markdown notes
