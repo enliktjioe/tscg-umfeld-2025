@@ -19,7 +19,7 @@ void settings() {
 
 void setup() {
     colorMode(RGB, 1.0, 1.0, 1.0, 1.0);
-    sampler = loadSample("teilchen.wav");
+    sampler = loadSample("christmas.wav");
     // resample sample to double the sample rate i.e the amount of samples per second
     // const float sampler_sample_rate = sampler->get_sample_rate();
     // sampler->resample(sampler_sample_rate, sampler_sample_rate * 2);
